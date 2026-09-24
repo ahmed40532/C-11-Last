@@ -151,7 +151,7 @@ public:
 		return  to_string(Date.Day) + "/" + to_string(Date.Month) + "/" + to_string(Date.Year);
 	}
 
-	string DateToString()
+    string DateToString()
 	{
 		return  DateToString(*this);
 	}

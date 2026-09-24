@@ -28,7 +28,7 @@ public:
     {
         if (!CheckAccessRights(clsUser::enPermissions::pListClients))
         {
-            return; //  jjj
+            return; 
         }
 
         vector <clsBankClient> vClients = clsBankClient::GetClientsList();
