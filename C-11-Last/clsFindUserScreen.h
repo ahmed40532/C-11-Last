@@ -85,6 +85,12 @@ private:
                 cout << "\n\t- Manage Users";
             }
 
+            if ((User.Permissions & clsUser::enPermissions::pShowLogInRegister)
+                == clsUser::enPermissions::pShowLogInRegister)
+            {
+                cout << "\n\t- Show Login Register List";
+            }
+
             break;
         }
     }
