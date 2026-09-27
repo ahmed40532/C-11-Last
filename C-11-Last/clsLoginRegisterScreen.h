@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include "clsScreen.h"
+#include "clsUtil.h"
 #include <iomanip>
 #include <fstream>
 #include "clsUser.h"
@@ -17,7 +18,7 @@ private:
 
         cout << setw(8) << left << "" << "| " << setw(35) << left << LoginRegisterRecord.DateTime;
         cout << "| " << setw(20) << left << LoginRegisterRecord.UserName;
-        cout << "| " << setw(20) << left << LoginRegisterRecord.Password;
+        cout << "| " << setw(20) << left << clsUtil::DecryptText(LoginRegisterRecord.Password);
         cout << "| " << setw(10) << left << LoginRegisterRecord.Permissions;
     }
 
