@@ -28,6 +28,9 @@
     <Filter Include="Header Files\Screens\User">
       <UniqueIdentifier>{b7086c04-00a7-4128-b943-35b37a9c89d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Screens\Currencies">
+      <UniqueIdentifier>{ee578c89-7c48-45a9-91e4-40dc590ffb0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C-11-Last.cpp">
@@ -43,12 +46,6 @@
     </ClInclude>
     <ClInclude Include="clsInputValidate.h">
       <Filter>Header Files\Libs</Filter>
-    </ClInclude>
-    <ClInclude Include="clsScreen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="clsMainScreen.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="clsBankClient.h">
       <Filter>Header Files\Core</Filter>
@@ -92,9 +89,6 @@
     <ClInclude Include="clsListUsersScreen.h">
       <Filter>Header Files\Screens\User</Filter>
     </ClInclude>
-    <ClInclude Include="clsManageUsersScreen.h">
-      <Filter>Header Files\Screens\User</Filter>
-    </ClInclude>
     <ClInclude Include="clsFindUserScreen.h">
       <Filter>Header Files\Screens\User</Filter>
     </ClInclude>
@@ -107,19 +101,46 @@
     <ClInclude Include="clsUpdateUserScreen.h">
       <Filter>Header Files\Screens\User</Filter>
     </ClInclude>
-    <ClInclude Include="clsLoginScreen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Global.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="clsLoginRegisterScreen.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="clsTransferLogScreen.h">
+      <Filter>Header Files\Screens\Client</Filter>
     </ClInclude>
     <ClInclude Include="clsTransferScreen.h">
+      <Filter>Header Files\Screens\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsLoginRegisterScreen.h">
+      <Filter>Header Files\Screens\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsLoginScreen.h">
+      <Filter>Header Files\Screens\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsManageUsersScreen.h">
+      <Filter>Header Files\Screens\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMainScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrency.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrencyExchangeMainScreen.h">
+      <Filter>Header Files\Screens\Currencies</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrenciesListScreen.h">
+      <Filter>Header Files\Screens\Currencies</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindCurrencyScreen.h">
+      <Filter>Header Files\Screens\Currencies</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateCurrencyRateScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="clsTransferLogScreen.h">
+    <ClInclude Include="clsCurrencyCalculatorScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
